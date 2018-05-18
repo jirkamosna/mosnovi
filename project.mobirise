@@ -36,13 +36,13 @@
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-jm-128x77.png",
     "noImageResize": "",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsText": "User-agent: *\nDisallow: all\n\n",
     "robotsSwitcher": "on",
     "siteUrl": "https://mosnovi.cz",
     "sitemapSwitcherAuto": "on",
-    "google-analytics": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-119553487-2\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-119553487-2');\r\n</script>",
     "cookiesAlert": "",
-    "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
+    "gdpr": "",
     "sitemapSwitcher": "on"
   },
   "pages": {
